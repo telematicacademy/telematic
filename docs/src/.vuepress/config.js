@@ -62,6 +62,12 @@ module.exports = {
     }
   },
 
+    markdown: {
+    config: md => {
+      md.use(require("markdown-it-katex"));
+    }
+  },
+
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
