@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-quickstart",
+  "name": "Telematic-virtual-academic-guide",
   "version": "0.2.0",
   "scripts": {
     "dev": "vuepress dev src",
@@ -8,8 +8,8 @@
   "devDependencies": {
     "vuepress": "^0.14.11"
   },
-  "description": "Starter template for a VuePress project - including CI for GH Pages hosting",
-  "author": "MichaelCurrin",
+  "description": "This site provides an explanatory Guide of Telematic, a virtual academia for Maths and Science school support, as well as a FAQ.",
+  "author": "Hasier",
   "license": "MIT",
   "dependencies": {
     "markdown-it-katex": "^2.0.3",
