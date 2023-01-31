@@ -4,13 +4,13 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'VuePress Docs Boilerplate',
+  title: 'Guía y FAQ de Telematic',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
 
-  base: `/${name}/`,
+  base: `/telematic/`,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -36,22 +36,22 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'Guía',
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'FAQ',
+        link: '/faq/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'Test',
+        link: '/test/'
+      },
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Guía',
           collapsable: false,
           children: [
             '',
@@ -59,7 +59,39 @@ module.exports = {
           ]
         }
       ],
-    }
+
+      '/test/': [
+        {
+          title: 'test',
+          collapsable: false,
+          children: [
+            '',
+            'test-child',
+            'test-child-02',
+          ]
+        }
+      ],
+
+      '/faq/': [
+        {
+          title: 'FAQ',
+          collapsable: false,
+          children: [
+            '',
+            'faq-empresa',
+            'faq-test'
+          ]
+        }
+      ],
+
+      '/': [
+        '',
+      ]
+
+    },
+
+
+    
   },
 
     markdown: {
