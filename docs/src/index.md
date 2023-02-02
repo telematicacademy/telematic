@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Starter template for a VuePress project
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /faq/
 features:
   - title: Feature 1 Title
     details: Feature 1 Description

@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Guía y FAQ de Telematic',
+  title: 'Guía Telematic - Matemáticas',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -36,22 +36,22 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guía',
-        link: '/guide/',
+        text: 'Bachillerato',
+        link: '/bachillerato/',
+      },
+      {
+        text: 'Secundaria',
+        link: '/secundaria/'
       },
       {
         text: 'FAQ',
         link: '/faq/'
       },
-      {
-        text: 'Test',
-        link: '/test/'
-      },
     ],
     sidebar: {
-      '/guide/': [
+      '/bachillerato/': [
         {
-          title: 'Guía',
+          title: 'Bachillerato',
           collapsable: false,
           children: [
             '',
@@ -60,14 +60,12 @@ module.exports = {
         }
       ],
 
-      '/test/': [
+      '/secundaria/': [
         {
-          title: 'test',
+          title: 'Secundaria',
           collapsable: false,
           children: [
             '',
-            'test-child',
-            'test-child-02',
           ]
         }
       ],
@@ -78,8 +76,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'faq-empresa',
-            'faq-test'
+            'faq-telematic',
           ]
         }
       ],

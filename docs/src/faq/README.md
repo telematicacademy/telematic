@@ -1,19 +1,10 @@
-# FAQ
+# ¿Qué es esta Guía?
 
-#### ¿Qué es Telematic?
+La guía de Matemáticas de Telematic, es una guía didáctica de las matemáticas, la cual tiene como objetivo proporcionar una guía resumida y organizada, así como diferentes ejercicios resueltos, de los contenidos de la materia de Matemáticas impartidos en Bachillerato y Secundaria.
 
+El contenido está orientado a proporcionar un recurso didáctico de calidad, bien estructurado y resumido, principalmente orientado a estudiantes de educación Secundaria y Bachillerato.
 
+### Redacción y administración
 
-#### ¿Qué servicios se ofrecen?
-
-#### ¿Qué herramientas utiliza?
-
-#### ¿Cual es la metodología de trabajo?
-
-#### ¿Qué ventajas aporta esta metodología de trabajo?
-
-#### ¿Qué canales de comunicación existen?
-
-#### ¿Cuales son las tarifas?
-
-#### 
+Telematic Academy S.L
+Hasier Ollo Mendoza
