@@ -1,18 +1,18 @@
 {
-  "name": "Telematic-virtual-academic-guide",
+  "name": "Telematic-math-guide",
   "version": "0.2.0",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^1.9.8"
   },
-  "description": "This site provides an explanatory Guide of Telematic, a virtual academia for Maths and Science school support, as well as a FAQ.",
+  "description": "Didactic guide of mathematics, which aims to provide a summarized and organized guide, as well as different solved exercises, of the contents of the subject of Mathematics taught in Baccalaureate and Secondary.",
   "author": "Hasier",
   "license": "MIT",
   "dependencies": {
-    "markdown-it-katex": "^2.0.3",
     "vue-template-compiler": "^2.7.14"
   }
 }
