@@ -11,8 +11,29 @@ Because VuePress AAA applications are server-rendered in Node.js when generating
 
 If you are using or demoing components that are not SSR friendly (for example containing custom directives), you can wrap them inside the built-in `<ClientOnly>` component:
 
-##
 
-### Katex concept-prove
+## Katex concept-prove
 
 $J \left( \theta_0, \theta_1 \right) = \frac{1}{2m}\sum\limits_{i=1}^m \left( h_{\theta}(x^{(i)})-y^{(i)} \right)^{2}$
+
+## Markdown extensions concept-prove
+
+::: tip
+Esto es un tip
+:::
+
+::: warning
+Esto es un aviso
+:::
+
+::: danger
+Esto es un aviso grave
+:::
+
+::: details Click me to view the code
+```js
+console.log('Hello, VuePress!')
+```
+:::
+
+##
